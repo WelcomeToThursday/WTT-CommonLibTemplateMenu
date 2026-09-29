@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>org.madmanbeavis.WTTCommonLibTemplateMenu</id>
+    <id>com.wtt.commonlibtemplatemenu</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -38,8 +38,8 @@
 
     <actions>
         <!-- Add template menu to editor context menu -->
-        <group id="org.madmanbeavis.templates.TemplateMenuGroup"
-               class="org.madmanbeavis.wttcommonlibtemplatemenu.templates.TemplateMenuGroup"
+        <group id="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
+               class="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
                text="Insert Template"
                description="Insert template JSON files"
                popup="true">
@@ -47,8 +47,8 @@
         </group>
 
         <!-- Add template menu to project view context menu -->
-        <group id="org.madmanbeavis.templates.TemplateMenuGroup.ProjectView"
-               class="org.madmanbeavis.wttcommonlibtemplatemenu.templates.TemplateMenuGroup"
+        <group id="com.wtt.commonlibtemplatemenu.TemplateMenuGroup.ProjectView"
+               class="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
                text="New Template File"
                description="Create new template JSON file"
                popup="true">

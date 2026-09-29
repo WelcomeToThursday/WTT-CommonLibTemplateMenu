@@ -1,4 +1,4 @@
-package org.madmanbeavis.wttcommonlibtemplatemenu.templates
+package com.wtt.commonlibtemplatemenu
 
 import com.intellij.openapi.actionSystem.ActionGroup
 import com.intellij.openapi.actionSystem.ActionUpdateThread

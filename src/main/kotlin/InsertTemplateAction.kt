@@ -1,4 +1,4 @@
-package org.madmanbeavis.wttcommonlibtemplatemenu.templates
+package com.wtt.commonlibtemplatemenu
 
 import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction
@@ -23,10 +23,8 @@ class InsertTemplateAction(
         val virtualFile = e.getData(CommonDataKeys.VIRTUAL_FILE)
 
         if (editor != null) {
-            // Insert into editor at cursor position
             insertIntoEditor(project, editor, category, templateName)
         } else if (virtualFile != null) {
-            // Create new JSON file in selected directory
             createJsonFile(project, virtualFile, category, templateName)
         }
     }
