@@ -1,0 +1,58 @@
+name: Release plugin
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: plugin-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+
+      - name: Read release version
+        shell: bash
+        run: |
+          chmod +x ./gradlew
+          version="$(./gradlew -q properties --property version | sed -n 's/^version: //p' | tail -n 1)"
+          if [[ -z "$version" ]]; then
+            echo "::error::Could not read the Gradle project version."
+            exit 1
+          fi
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+
+      - name: Build and package plugin
+        run: ./gradlew test buildPlugin verifyPluginStructure
+
+      - name: Publish release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          zip="build/distributions/WTTCommonLibTemplateMenu-${VERSION}.zip"
+          test -f "$zip"
+          if gh release view "$VERSION" >/dev/null 2>&1; then
+            echo "Release $VERSION already exists; skipping."
+            exit 0
+          fi
+          if git fetch --quiet origin "refs/tags/$VERSION:refs/tags/$VERSION" 2>/dev/null; then
+            if [[ "$(git rev-list -n 1 "$VERSION")" != "$GITHUB_SHA" ]]; then
+              echo "::error::Tag $VERSION already points to a different commit."
+              exit 1
+            fi
+          fi
+          gh release create "$VERSION" "$zip" --title "$VERSION" --notes "" --target "$GITHUB_SHA"
