@@ -22,9 +22,7 @@ object TemplateManager {
 
     fun getTemplatesForCategory(category: String): Map<String, String>? = categories[category]
 
-    fun getTemplate(category: String, templateName: String): String? =
-        categories[category]?.get(templateName)
-
+    fun getTemplate(category: String, templateName: String): String? = categories[category]?.get(templateName)
 
     private fun createCustomClothingTop() = """
         {
