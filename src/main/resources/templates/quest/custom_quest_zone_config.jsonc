@@ -1,0 +1,36 @@
+{
+    "ZoneId": "ZONE_ID_HERE",
+    "ZoneName": "ZONE_NAME_HERE",
+    "ZoneLocation": "LOCATION_ID_HERE",
+    "ZoneType": "ZONE_TYPE_HERE",
+    "FlareType": "",
+    "Position": {
+        "X": "0",
+        "Y": "0",
+        "Z": "0"
+    },
+    "Rotation": {
+        "X": "0",
+        "Y": "0",
+        "Z": "0",
+        "W": "1"
+    },
+    "Scale": {
+        "X": "1",
+        "Y": "1",
+        "Z": "1"
+    },
+    "GroupPosition": [],
+    "Salvage": {
+        "RequiredItemTpl": "ITEM_TEMPLATE_ID_HERE",
+        "SalvageTime": 10,
+        "ConsumeRequiredItem": true,
+        "Rewards": [
+            {
+                "ItemTpl": "ITEM_TEMPLATE_ID_HERE",
+                "Count": 1,
+                "ToQuestInventory": false
+            }
+        ]
+    }
+}

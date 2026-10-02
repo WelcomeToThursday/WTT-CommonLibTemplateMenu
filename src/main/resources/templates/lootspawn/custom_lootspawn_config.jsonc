@@ -1,0 +1,41 @@
+{
+    "locationId": "(X, Y, Z)",
+    "probability": 1.0,
+    "template": {
+        "Id": "SPAWN_NAME_HERE",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "GENERATE_UNIQUE_ID_HERE",
+        "Items": [
+            {
+                "_id": "GENERATE_UNIQUE_ID_HERE",
+                "_tpl": "ITEM_TEMPLATE_ID_HERE",
+                "upd": {
+                    "SpawnedInSession": true
+                }
+            }
+        ]
+    },
+    "itemDistribution": [
+        {
+            "composedKey": {
+                "key": "-1"
+            },
+            "relativeProbability": 1
+        }
+    ]
+}

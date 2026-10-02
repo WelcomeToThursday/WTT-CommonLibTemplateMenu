@@ -1,0 +1,8 @@
+{
+    "usecOnlyQuests": [
+        "QUEST_ID_HERE"
+    ],
+    "bearOnlyQuests": [
+        "QUEST_ID_HERE"
+    ]
+}

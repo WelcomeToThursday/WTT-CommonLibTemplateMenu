@@ -1,0 +1,19 @@
+{
+    "_changeWeaponName": true,
+    "_id": "GENERATE_UNIQUE_ID_HERE",
+    "_items": [
+        {
+            "_id": "GENERATE_UNIQUE_ID_HERE",
+            "_tpl": "WEAPON_TEMPLATE_ID_HERE"
+        },
+        {
+            "_id": "GENERATE_UNIQUE_ID_HERE",
+            "_tpl": "MOD_TEMPLATE_ID_HERE",
+            "parentId": "GENERATE_UNIQUE_ID_HERE",
+            "slotId": "MOD_SLOT_ID_HERE"
+        }
+    ],
+    "_name": "PRESET_NAME_HERE",
+    "_parent": "WEAPON_PRESET_PARENT_ID_HERE",
+    "_type": "Preset"
+}

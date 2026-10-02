@@ -1,0 +1,24 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "_id": "GENERATE_UNIQUE_ID_HERE",
+        "_name": "CUSTOMIZATION_NAME_HERE",
+        "_parent": "PARENT_CUSTOMIZATION_ID_HERE",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Description": "",
+            "Name": "",
+            "ProfileVersions": [],
+            "ShortName": "",
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "path/to/customization/bundle",
+                "rcid": ""
+            },
+            "HideGarbage": false
+        }
+    }
+}

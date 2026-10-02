@@ -1,0 +1,42 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "QuestName": "QUEST_NAME_HERE",
+        "_id": "GENERATE_UNIQUE_ID_HERE",
+        "acceptPlayerMessage": "QUEST_ID_HERE acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "QUEST_ID_HERE changeQuestMessageText",
+        "completePlayerMessage": "QUEST_ID_HERE completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [],
+            "AvailableForStart": [],
+            "Fail": []
+        },
+        "declinePlayerMessage": "QUEST_ID_HERE declinePlayerMessage",
+        "description": "QUEST_ID_HERE description",
+        "failMessageText": "QUEST_ID_HERE failMessageText",
+        "gameModes": [],
+        "image": "",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "QUEST_ID_HERE name",
+        "note": "QUEST_ID_HERE note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": []
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "QUEST_ID_HERE startedMessageText",
+        "status": 0,
+        "successMessageText": "QUEST_ID_HERE successMessageText",
+        "traderId": "TRADER_ID_HERE",
+        "type": "QUEST_TYPE_HERE"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "elements": [
+        {
+            "Id": "GENERATE_UNIQUE_ID_HERE",
+            "MainVariable": "GENERATE_UNIQUE_ID_HERE",
+            "Trader": "TRADER_ID_HERE",
+            "SubTraders": [],
+            "Lines": [
+                {
+                    "Id": "GENERATE_UNIQUE_ID_HERE",
+                    "DialogSide": "Npc",
+                    "IconType": "DialogBubble",
+                    "AnimationData": {
+                        "animations": [],
+                        "secondaryAnimations": [],
+                        "lipSyncs": [],
+                        "subtitles": [
+                            {
+                                "id": "GENERATE_UNIQUE_ID_HERE",
+                                "start": 0.0,
+                                "end": 5.0
+                            }
+                        ],
+                        "media": {
+                            "image": null,
+                            "music": null,
+                            "sound": null
+                        }
+                    },
+                    "Actions": [
+                        {
+                            "variableId": "GENERATE_UNIQUE_ID_HERE",
+                            "value": 1,
+                            "saveScope": "Dialogue",
+                            "type": "SetVariable",
+                            "id": "GENERATE_UNIQUE_ID_HERE"
+                        }
+                    ],
+                    "Trigger": {
+                        "type": "MainLogicalGroup",
+                        "Conditions": [
+                            {
+                                "type": "LogicalSubGroup",
+                                "Conditions": [
+                                    {
+                                        "variableId": "GENERATE_UNIQUE_ID_HERE",
+                                        "value": 0,
+                                        "operator": "==",
+                                        "type": "VariableValue"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "StartPoints": {
+                "GENERATE_UNIQUE_ID_HERE": 0
+            },
+            "localization": {
+                "en": {
+                    "GENERATE_UNIQUE_ID_HERE": "DIALOGUE_TEXT_HERE"
+                }
+            }
+        }
+    ]
+}

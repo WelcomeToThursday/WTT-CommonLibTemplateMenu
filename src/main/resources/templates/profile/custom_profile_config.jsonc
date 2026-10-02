@@ -1,0 +1,196 @@
+{
+    "descriptionLocaleKey": "PROFILE_DESCRIPTION_LOCALE_KEY_HERE",
+    "bear": {
+        "character": {
+            "Customization": {
+                "Body": "BODY_CUSTOMIZATION_ID_HERE",
+                "Feet": "FEET_CUSTOMIZATION_ID_HERE",
+                "Hands": "HANDS_CUSTOMIZATION_ID_HERE",
+                "Head": "HEAD_CUSTOMIZATION_ID_HERE",
+                "DogTag": "DOGTAG_CUSTOMIZATION_ID_HERE",
+                "Voice": "VOICE_CUSTOMIZATION_ID_HERE"
+            },
+            "Health": {
+                "BodyParts": {
+                    "Head": {
+                        "Health": {
+                            "Current": 35,
+                            "Maximum": 35
+                        }
+                    },
+                    "Chest": {
+                        "Health": {
+                            "Current": 85,
+                            "Maximum": 85
+                        }
+                    },
+                    "Stomach": {
+                        "Health": {
+                            "Current": 70,
+                            "Maximum": 70
+                        }
+                    },
+                    "LeftArm": {
+                        "Health": {
+                            "Current": 60,
+                            "Maximum": 60
+                        }
+                    },
+                    "RightArm": {
+                        "Health": {
+                            "Current": 60,
+                            "Maximum": 60
+                        }
+                    },
+                    "LeftLeg": {
+                        "Health": {
+                            "Current": 65,
+                            "Maximum": 65
+                        }
+                    },
+                    "RightLeg": {
+                        "Health": {
+                            "Current": 65,
+                            "Maximum": 65
+                        }
+                    }
+                },
+                "Energy": {
+                    "Current": 100,
+                    "Maximum": 100
+                },
+                "Hydration": {
+                    "Current": 100,
+                    "Maximum": 100
+                },
+                "Temperature": {
+                    "Current": 36.6,
+                    "Maximum": 40
+                }
+            },
+            "Inventory": {
+                "items": []
+            },
+            "Skills": {
+                "Common": [],
+                "Mastering": [],
+                "Points": 0
+            },
+            "TradersInfo": {},
+            "WishList": [],
+            "_id": "000000000000000000000000",
+            "aid": "__REPLACE_ME__",
+            "savage": "000000000000000000000000"
+        },
+        "dialogues": {},
+        "equipmentBuilds": {},
+        "suits": [],
+        "trader": {
+            "initialLoyaltyLevel": {},
+            "initialStanding": {
+                "default": 0
+            },
+            "initialSalesSum": 0,
+            "jaegerUnlocked": false,
+            "lockedByDefaultOverride": []
+        },
+        "weaponbuilds": {}
+    },
+    "usec": {
+        "character": {
+            "Customization": {
+                "Body": "BODY_CUSTOMIZATION_ID_HERE",
+                "Feet": "FEET_CUSTOMIZATION_ID_HERE",
+                "Hands": "HANDS_CUSTOMIZATION_ID_HERE",
+                "Head": "HEAD_CUSTOMIZATION_ID_HERE",
+                "DogTag": "DOGTAG_CUSTOMIZATION_ID_HERE",
+                "Voice": "VOICE_CUSTOMIZATION_ID_HERE"
+            },
+            "Health": {
+                "BodyParts": {
+                    "Head": {
+                        "Health": {
+                            "Current": 35,
+                            "Maximum": 35
+                        }
+                    },
+                    "Chest": {
+                        "Health": {
+                            "Current": 85,
+                            "Maximum": 85
+                        }
+                    },
+                    "Stomach": {
+                        "Health": {
+                            "Current": 70,
+                            "Maximum": 70
+                        }
+                    },
+                    "LeftArm": {
+                        "Health": {
+                            "Current": 60,
+                            "Maximum": 60
+                        }
+                    },
+                    "RightArm": {
+                        "Health": {
+                            "Current": 60,
+                            "Maximum": 60
+                        }
+                    },
+                    "LeftLeg": {
+                        "Health": {
+                            "Current": 65,
+                            "Maximum": 65
+                        }
+                    },
+                    "RightLeg": {
+                        "Health": {
+                            "Current": 65,
+                            "Maximum": 65
+                        }
+                    }
+                },
+                "Energy": {
+                    "Current": 100,
+                    "Maximum": 100
+                },
+                "Hydration": {
+                    "Current": 100,
+                    "Maximum": 100
+                },
+                "Temperature": {
+                    "Current": 36.6,
+                    "Maximum": 40
+                }
+            },
+            "Inventory": {
+                "items": []
+            },
+            "Skills": {
+                "Common": [],
+                "Mastering": [],
+                "Points": 0
+            },
+            "TradersInfo": {},
+            "WishList": [],
+            "_id": "000000000000000000000000",
+            "aid": "__REPLACE_ME__",
+            "savage": "000000000000000000000000"
+        },
+        "dialogues": {},
+        "equipmentBuilds": {},
+        "suits": [],
+        "trader": {
+            "initialLoyaltyLevel": {},
+            "initialStanding": {
+                "default": 0
+            },
+            "initialSalesSum": 0,
+            "jaegerUnlocked": false,
+            "lockedByDefaultOverride": []
+        },
+        "weaponbuilds": {}
+    },
+    "customFlags": {}
+}

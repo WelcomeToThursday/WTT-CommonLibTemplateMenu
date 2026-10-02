@@ -1,0 +1,17 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "locales": {
+            "en": "Custom Voice Pack"
+        },
+        "name": "custom_voice_001",
+        "bundlePath": "path/to/voice/bundle",
+        "addVoiceToPlayer": true,
+        "sideSpecificVoice": [
+            "usec",
+            "bear"
+        ],
+        "addToBotTypes": {
+            // SET YOUR BOTS HERE
+        }
+    }
+}

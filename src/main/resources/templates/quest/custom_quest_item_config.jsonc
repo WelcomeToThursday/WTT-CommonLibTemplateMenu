@@ -1,0 +1,23 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "itemTplToClone": "SET_ME_TO_ITEM_THATS_BEING_CLONED",
+        "newName": "CUSTOM_QUEST_ITEM_NAME_HERE",
+        "parentId": "SET_ME",
+        "overrideProperties": {
+        },
+        "locales": {
+            "en": {
+                "name": "QUEST_ITEM_NAME_HERE",
+                "shortName": "QUEST_ITEM_SHORT_NAME_HERE",
+                "description": "QUEST_ITEM_DESCRIPTION_HERE"
+            }
+        },
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": null,
+        "addtoSpecialSlots": false,
+        "addtoSecureFilters": false,
+        "registerInHandbook": false,
+        "registerInFleaPrices": false
+    }
+}

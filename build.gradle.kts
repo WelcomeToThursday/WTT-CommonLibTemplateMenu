@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.wtt.commonlibtemplatemenu"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -46,5 +46,18 @@ tasks {
 kotlin {
     compilerOptions {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
+    }
+}
+
+intellijPlatform {
+    publishing {
+        token = providers.gradleProperty("intellijPlatformPublishingToken").orNull
+        val channel = providers.gradleProperty("publishChannel").orNull
+        channels = if (channel == null || channel == "stable") {
+            emptyList()
+        }
+        else {
+            listOf(channel)
+        }
     }
 }

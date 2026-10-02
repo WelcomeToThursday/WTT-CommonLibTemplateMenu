@@ -1,0 +1,13 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "path": "path/to/head/bundle",
+        "addHeadToPlayer": true,
+        "side": [
+            "usec",
+            "bear"
+        ],
+        "locales": {
+            "en": "Custom Head Model"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "CUSTOM_BUFF_NAME_HERE": [
+        {
+            "BuffType": "StaminaRate", // StaminaRate, WeightLimit, DamageModifier, HealthRate...
+            "Chance": 1,
+            "Delay": 0,
+            "Duration": 60,
+            "Value": 1,
+            "AbsoluteValue": true,
+            "SkillName": ""
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "QUEST_ID_HERE": {
+        "StartMonth": 1,
+        "StartDay": 1,
+        "EndMonth": 12,
+        "EndDay": 31
+    }
+}

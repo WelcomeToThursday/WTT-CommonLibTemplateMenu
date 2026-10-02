@@ -1,0 +1,38 @@
+{
+    "_id": "GENERATE_UNIQUE_ID_HERE",
+    "areaType": 10,
+    "requirements": [
+        {
+            "areaType": 10,
+            "requiredLevel": 1,
+            "type": "Area"
+        },
+        {
+            "templateId": "ITEM_TEMPLATE_ID_HERE",
+            "count": 1,
+            "isFunctional": false,
+            "isEncoded": false,
+            "type": "Item"
+        }
+    ],
+    "productionTime": 60,
+    "needFuelForAllProductionTime": false,
+    "locked": false,
+    "endProduct": "ITEM_TEMPLATE_ID_HERE",
+    "endProductItems": [
+        {
+            "count": 1,
+            "items": [
+                {
+                    "_id": "GENERATE_UNIQUE_ID_HERE",
+                    "_tpl": "ITEM_TEMPLATE_ID_HERE"
+                }
+            ]
+        }
+    ],
+    "continuous": false,
+    "count": 1,
+    "productionLimitCount": 0,
+    "isEncoded": false,
+    "isCodeProduction": false
+}

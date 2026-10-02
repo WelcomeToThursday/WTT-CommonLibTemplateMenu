@@ -1,0 +1,36 @@
+{
+    "TRADER_ID_OR_NAME_HERE": {
+        "items": [
+            {
+                "_id": "GENERATE_UNIQUE_ID_HERE",
+                "_tpl": "ITEM_TEMPLATE_ID_HERE",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
+                },
+                "parentId": "hideout",
+                "slotId": "hideout"
+            },
+            {
+                "_id": "GENERATE_UNIQUE_ID_HERE",
+                "_tpl": "MOD_TEMPLATE_ID_HERE",
+                "parentId": "GENERATE_UNIQUE_ID_HERE",
+                "slotId": "MOD_SLOT_ID_HERE"
+            }
+        ],
+        "barter_scheme": {
+            "GENERATE_UNIQUE_ID_HERE": [
+                [
+                    {
+                        "count": 1,
+                        "_tpl": "CURRENCY_OR_ITEM_TEMPLATE_ID_HERE"
+                    }
+                ]
+            ]
+        },
+        "loyal_level_items": {
+            "GENERATE_UNIQUE_ID_HERE": 1
+        }
+    }
+}

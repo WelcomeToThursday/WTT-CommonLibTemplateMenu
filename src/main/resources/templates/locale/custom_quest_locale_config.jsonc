@@ -1,0 +1,12 @@
+{
+    "QUEST_ID_HERE name": "QUEST_NAME_HERE",
+    "QUEST_ID_HERE description": "QUEST_DESCRIPTION_HERE",
+    "QUEST_ID_HERE note": "",
+    "QUEST_ID_HERE startedMessageText": "QUEST_STARTED_MESSAGE_HERE",
+    "QUEST_ID_HERE successMessageText": "QUEST_SUCCESS_MESSAGE_HERE",
+    "QUEST_ID_HERE failMessageText": "QUEST_FAIL_MESSAGE_HERE",
+    "QUEST_ID_HERE acceptPlayerMessage": "",
+    "QUEST_ID_HERE declinePlayerMessage": "",
+    "QUEST_ID_HERE completePlayerMessage": "",
+    "QUEST_ID_HERE changeQuestMessageText": ""
+}

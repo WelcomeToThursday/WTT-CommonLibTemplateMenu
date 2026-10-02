@@ -15,7 +15,7 @@ class TemplateMenuGroup : ActionGroup("Insert Template", true) {
 
             val categoryGroup = object : ActionGroup(category, true) {
                 override fun getChildren(e: AnActionEvent?): Array<AnAction> {
-                    return templates.map { (templateName, _) ->
+                    return templates.map { templateName ->
                         InsertTemplateAction(category, templateName, templateName)
                     }.toTypedArray()
                 }

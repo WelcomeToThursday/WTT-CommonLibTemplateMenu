@@ -1,0 +1,12 @@
+{
+    "GENERATE_UNIQUE_ID_HERE": {
+        "_id": "GENERATE_UNIQUE_ID_HERE",
+        "_name": "CUSTOM_PARENT_CLASS_NAME_HERE",
+        "_parent": "BASE_PARENT_ID_HERE",
+        "_type": "Node",
+        "_props": {
+        },
+        "addToContainerFilters": false,
+        "containers": []
+    }
+}

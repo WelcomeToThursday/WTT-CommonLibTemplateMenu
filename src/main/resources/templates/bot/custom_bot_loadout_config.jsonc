@@ -1,0 +1,33 @@
+{
+    "chances": {
+        "equipment": {
+            "FirstPrimaryWeapon": 100
+        },
+        "weaponMods": {
+            "mod_stock": 100,
+            "mod_magazine": 100
+        }
+    },
+    "inventory": {
+        "equipment": {
+            "FirstPrimaryWeapon": {
+                "ITEM_TEMPLATE_ID_HERE": 1
+            }
+        },
+        "mods": {
+            "ITEM_TEMPLATE_ID_HERE": {
+                "mod_stock": [
+                    "MOD_TEMPLATE_ID_HERE"
+                ],
+                "mod_magazine": [
+                    "MAGAZINE_TEMPLATE_ID_HERE"
+                ]
+            }
+        },
+        "Ammo": {
+            "CALIBER_HERE": {
+                "AMMO_TEMPLATE_ID_HERE": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "questId": "QUEST_ID_HERE",
+    "locationID": "LOCATION_ID_HERE",
+    "bundleName": "BUNDLE_NAME_HERE",
+    "prefabName": "PREFAB_NAME_HERE",
+    "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "requiredQuestStatuses": [],
+    "excludedQuestStatuses": [],
+    "questMustExist": false,
+    "linkedQuestId": null,
+    "linkedRequiredStatuses": [],
+    "linkedExcludedStatuses": [],
+    "linkedQuestMustExist": null,
+    "requiredItemInInventory": null,
+    "requiredLevel": null,
+    "requiredFaction": null,
+    "requiredBossSpawned": null
+}

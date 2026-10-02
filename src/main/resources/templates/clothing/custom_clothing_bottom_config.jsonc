@@ -1,0 +1,21 @@
+{
+    "type": "bottom",
+    "suiteId": "GENERATE_UNIQUE_ID_HERE",
+    "outfitId": "GENERATE_UNIQUE_ID_HERE",
+    "bottomId": "GENERATE_UNIQUE_ID_HERE",
+    "locales": {
+        "en": {
+            "name": "NAME_YOUR_BOTTOM_HERE",
+            "description": "WRITE_A_DESCRIPTION_HERE"
+        }
+    },
+    "bottomBundlePath": "path/to/bundle",
+    "traderId": "SET_ME",
+    "loyaltyLevel": 1,
+    "profileLevel": 1,
+    "standing": 0,
+    "currencyId": "SET_ME",
+    "price": 1,
+    "questRequirements": [],
+    "achievementRequirements": []
+}

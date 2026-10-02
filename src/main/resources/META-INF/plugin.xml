@@ -13,13 +13,12 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        A productivity plugin designed for WTT-CommonLib development that streamlines the creation of template JSON files for custom game content.
+        A productivity plugin designed for WTT-CommonLib development that streamlines inserting JSON templates into existing files for custom game content.
 
         <h2>Features</h2>
         <ul>
-            <li><b>Quick Template Generation:</b> Create pre-structured JSON templates for custom items, clothing, and other game assets with a single click</li>
+            <li><b>Quick Template Insertion:</b> Insert pre-structured JSON templates for custom items, clothing, and other game assets with a single click</li>
             <li><b>Context Menu Integration:</b> Access template insertion directly from the editor's right-click menu while editing files</li>
-            <li><b>Project View Integration:</b> Generate new template files directly from the project explorer using the right-click context menu</li>
             <li><b>Seamless Workflow:</b> Reduces boilerplate code writing and ensures a consistent template structure across your project</li>
         </ul>
 
@@ -41,18 +40,9 @@
         <group id="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
                class="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
                text="Insert Template"
-               description="Insert template JSON files"
+               description="Insert a JSON template into the current editor"
                popup="true">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
-        </group>
-
-        <!-- Add template menu to project view context menu -->
-        <group id="com.wtt.commonlibtemplatemenu.TemplateMenuGroup.ProjectView"
-               class="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
-               text="New Template File"
-               description="Create new template JSON file"
-               popup="true">
-            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
         </group>
     </actions>
 </idea-plugin>

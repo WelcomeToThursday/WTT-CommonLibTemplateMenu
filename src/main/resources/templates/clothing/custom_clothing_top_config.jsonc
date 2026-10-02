@@ -1,0 +1,33 @@
+{
+    "type": "top",
+    "suiteId": "GENERATE_UNIQUE_ID_HERE",
+    "outfitId": "GENERATE_UNIQUE_ID_HERE",
+    "topId": "GENERATE_UNIQUE_ID_HERE",
+    "handsId": "GENERATE_UNIQUE_ID_HERE",
+    "bottomId": null,
+    "side": [
+        "usec",
+        "bear"
+    ],
+    "locales": {
+        "en": {
+            "name": "NAME_YOUR_TOP_HERE",
+            "description": "WRITE_A_DESCRIPTION_HERE"
+        }
+    },
+    "topBundlePath": "path/to/top/bundle",
+    "handsBundlePath": "path/to/hands/bundle",
+    "bottomBundlePath": null,
+    "traderId": "SET_ME",
+    "loyaltyLevel": 2,
+    "profileLevel": 15,
+    "standing": 0.25,
+    "currencyId": "SET_ME",
+    "price": 1,
+    "watchPrefab": null,
+    "watchPosition": null,
+    "watchRotation": null,
+    "skillRequirements": [],
+    "questRequirements": [],
+    "achievementRequirements": []
+}

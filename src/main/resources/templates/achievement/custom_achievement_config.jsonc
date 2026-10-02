@@ -1,0 +1,20 @@
+{
+    "id": "GENERATE_UNIQUE_ID_HERE",
+    "imageUrl": "",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+        "availableForFinish": [],
+        "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": true,
+    "showProgress": true,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": true,
+    "progressBarEnabled": true,
+    "side": "Pmc",
+    "index": 0
+}

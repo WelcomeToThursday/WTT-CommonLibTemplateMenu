@@ -1,0 +1,41 @@
+name: Publish Plugin to JetBrains Marketplace, Stable Channel
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: Marketplace channel
+        required: true
+        default: stable
+        type: choice
+        options:
+          - stable
+          - beta
+          - alpha
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+
+      - name: Publish plugin
+        env:
+          ORG_GRADLE_PROJECT_intellijPlatformPublishingToken: ${{ secrets.JETBRANS_MARKETPLACE_TOKEN }}
+          ORG_GRADLE_PROJECT_publishChannel: ${{ inputs.channel }}
+        run: ./gradlew publishPlugin
