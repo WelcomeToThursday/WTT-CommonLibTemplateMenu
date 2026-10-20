@@ -1,1 +1,1 @@
-rootProject.name = "WTTCommonLibTemplateMenu"
+rootProject.name = "WTTCommonLibTemplatesMenu"

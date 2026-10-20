@@ -1,14 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>com.wtt.commonlibtemplatemenu</id>
+    <id>com.wtt.commonlibtemplatesmenu</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>WTT-CommonLib Template Menu</name>
+    <name>WTT-CommonLib Templates Menu</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://github.com/madmanbeavisx">MadManBeavis</vendor>
+    <vendor url="https://github.com/WelcomeToThursday">The Welcome To Thursday Team</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
@@ -37,8 +37,8 @@
 
     <actions>
         <!-- Add template menu to editor context menu -->
-        <group id="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
-               class="com.wtt.commonlibtemplatemenu.TemplateMenuGroup"
+        <group id="com.wtt.commonlibtemplatesmenu.TemplateMenuGroup"
+               class="com.wtt.commonlibtemplatesmenu.TemplateMenuGroup"
                text="Insert Template"
                description="Insert a JSON template into the current editor"
                popup="true">

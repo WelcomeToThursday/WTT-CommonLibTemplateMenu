@@ -1,4 +1,4 @@
-package com.wtt.commonlibtemplatemenu
+package com.wtt.commonlibtemplatesmenu
 
 import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnAction

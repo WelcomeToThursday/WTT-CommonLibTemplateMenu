@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.7.1"
 }
 
-group = "com.wtt.commonlibtemplatemenu"
+group = "com.wtt.commonlibtemplatesmenu"
 version = "1.1.1"
 
 repositories {

@@ -43,7 +43,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          zip="build/distributions/WTTCommonLibTemplateMenu-${VERSION}.zip"
+          zip="build/distributions/WTTCommonLibTemplatesMenu-${VERSION}.zip"
           test -f "$zip"
           if gh release view "$VERSION" >/dev/null 2>&1; then
             echo "Release $VERSION already exists; skipping."

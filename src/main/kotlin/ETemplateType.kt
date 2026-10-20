@@ -1,4 +1,4 @@
-package com.wtt.commonlibtemplatemenu
+package com.wtt.commonlibtemplatesmenu
 
 enum class ETemplateType {
     DOCUMENT,

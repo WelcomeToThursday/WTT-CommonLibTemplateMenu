@@ -1,4 +1,4 @@
-package com.wtt.commonlibtemplatemenu
+package com.wtt.commonlibtemplatesmenu
 
 object TemplateManager {
     private val categories: LinkedHashMap<String, List<TemplateDefinition>> = linkedMapOf(
